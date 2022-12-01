@@ -94,9 +94,11 @@
             </div>
             <label class="main-signup-confirm" for="user-confirm">
               <input type="checkbox" name="user-confirm" id="user-confirm" class="main-signup-checkbox" />
-              <svg class="main-signup-checkbox-icon" width="16" height="15">
+              <span class="main-signup-checkbox-icon">
+              <svg width="16" height="15">
                 <use href="./images/icons.svg#icon-check"></use>
               </svg>
+              </span>
               Погоджуюся з розсилкою та приймаю <a href="#" class="main-signup-link">Умови договору</a>
             </label>
             <button type="submit" class="main-signup-button">Відправити</button>
@@ -447,9 +449,9 @@
           </ul>
         </div>
         <div class="footer-header-white footer-mail-container">
-          <h3>Підпишіться на розсилку</h3>
+          <label for="footer-email" class="footer-email-label">Підпишіться на розсилку</label>
           <form name="signup-form" autocomplete="off" novalidate class="footer-signup-form">
-            <input type="email" name="email" class="footer-signup-field" placeholder="E-mail" />
+            <input type="email" name="email" class="footer-signup-field" placeholder="E-mail" id="footer-email"/>
             <button type="submit" class="footer-signup-button">Підписатися</button>
           </form>
         </div>
