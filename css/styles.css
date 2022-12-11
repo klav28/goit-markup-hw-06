@@ -254,6 +254,8 @@ ul {
     display: inline-block;
     width: 18px;
     height: 18px;
+
+    transition: fill var(--t-duration) var(--t-transition);
 }
 
 .main-signup-inputs {
@@ -269,7 +271,7 @@ ul {
     margin-bottom: 10px;
     padding: 12px 12px 12px 42px;
 
-    transition: color var(--t-duration) var(--t-transition), border var(--t-duration) var(--t-transition);
+    transition: border var(--t-duration) var(--t-transition);
 }
 
 .main-signup-inputs:focus {
